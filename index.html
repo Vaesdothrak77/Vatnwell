@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vatnwell-eka</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script src="js/main.js" defer></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/modal.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__wrapper">
+            <div class="header__nav">
+              <div id="header" class="media__container header-container">
+                <div class="header-logo">
+                  <a href="index.html"
+                    ><h1 class="logo-title">Vatn<br />well-eka</h1></a
+                  >
+                  <a href=""><h3 class="sub-logo">бурение скважин</h3></a>
+                </div>
+                <div class="media__phone">
+                  <a href="tel:+79254880800" class="phone__number"
+                    >+7 (925) 488-0800</a
+                  >
+                </div>
+                <div class="media__social-link">
+                  <a href="https://wa.me/+79254880800" target="_blank" class="link-social">
+                    <img
+                      src="img/icons/icons8-whatsapp-100.svg"
+                      alt="WhatsApp"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="header__btn-container">
+                <div class="hreader__btn-items">
+                  <a href="" class="header__btn-item feedback-link"
+                    >Обратная связь</a
+                  >
+                  <a href="work.html" class="header__btn-item">Наша работа</a>
+                </div>
+                <div class="modal-overlay" id="modalOverlay">
+                  <div class="modal" id="modal">
+                    <div class="modal-content">
+                      <h2 class="modal__title">Обратная связь</h2>
+                      <form>
+                        <label for="name">Имя:</label>
+                        <input
+                          placeholder="Имя"
+                          type="text"
+                          id="name"
+                          name="name"
+                          required
+                        />
+
+                        <label for="email">Почта:</label>
+                        <input
+                          placeholder="Почта"
+                          type="email"
+                          id="email"
+                          name="email"
+                          required
+                        />
+
+                        <label for="phone">Телефон:</label>
+                        <input
+                          placeholder="Телефон"
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          required
+                        />
+
+                        <label for="question">Вопрос:</label>
+                        <textarea
+                          placeholder="Вопрос:"
+                          id="question"
+                          name="question"
+                          rows="4"
+                          cols="50"
+                          required
+                        ></textarea>
+
+                        <button class="btn__form" type="submit">
+                          Отправить
+                        </button>
+                      </form>
+                    </div>
+                    <button class="modal-close" id="modalClose">x</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__info-block">
+          <nav class="header__info">
+            <a href="#page__main-title-big" class="header__info-link"
+              >О компании</a
+            ><a href="#page__cards-container" class="header__info-link"
+              >Цены и услуги</a
+            ><a href="#wells__content" class="header__info-link">Виды скважин</a
+            ><a href="#block__title" class="header__info-link">Контакты</a>
+          </nav>
+        </div>
+        <div class="tel__scroll">
+          <a href="https://wa.me/+79254880800" target="_blank">
+            <img src="./img/tel-scroll.png" class="phone-icon" alt="" />
+          </a>
+        </div>
+      </header>
+      <main class="page">
+        <div class="page__main">
+         
+          <h1 class="page__main-title">
+            Бурим скважины под ключ по лучшим ценам!
+          </h1>
+          <button class="page__main-button">Заказать скважину</button>
+        </div>
+        <div class="page__container elemets-container">
+          <div class="page__elements-content">
+            <img src="./img/artez.jpg" alt="elements" class="page__elements" />
+          </div>
+        </div>
+        <div class="page__container drilling-container">
+          <h1 class="page__main-title-big" id="page__main-title-big">
+            Наша компания занимается бурением и обустройством скважин на воду с
+            2000 года.
+          </h1>
+          <p class="page__main-text">
+            За этот период мы наработали технологии, которые позволяют нам
+            качественно бурить скважины с долгим сроком службы и гарантией.
+            Бурим скважины под ключ по лучшим ценам! Мы проводим полный комплекс
+            геологических и гидротехнических работ, чтобы дать Вам воду на
+            постоянной основе, в любое время года и в достаточном объеме.
+            Пробуренные нашей компанией скважины не приходится переделывать! Мы
+            подбираем ту конструкцию скважины, которая подходит именно к Вашему
+            геологическому разрезу земли. Подбирая, при этом, необходимые и
+            качественные материалы. При проведении буровых работ мастерами нашей
+            компании соблюдается техника безопасности, а работы выполняются в
+            соответствии с действующими СНиПами и ГОСТами. Тем самым, продлевая
+            срок службы Вашей скважины на долгие годы. По окончанию бурения
+            скважины наши специалисты, руководствуясь поставленными Заказчиком
+            целями и задачами, подбирают подходящее оборудование для дальнейшего
+            монтажа скважины. В случае необходимости мы подбираем систему
+            фильтрации для дополнительной очистки воды от различных примесей
+            (железо, марганец, известняк и прочее). Также мы оказываем услуги по
+            диагностике, обследованию и ремонту скважин, вышедших из строя.
+            Дадим "вторую жизнь" Вашей устаревшей скважине. Специалисты компании
+            "Vatnwell-eka" представляют команду профессионалов различного
+            профиля: буровые мастера, геодезисты, химики, геологи и инженеры.
+            Огромные теоретические и практические знания и многолетний опыт
+            наших специалистов позволяет решить практически любую поставленную
+            Заказчиком задачу.
+          </p>
+          <h1 class="page__main-title-big">ГАРАНТИЯ НА СКВАЖИНУ ДО 10 ЛЕТ!</h1>
+          <p class="page__main-text">
+            Вопрос бурения автономной скважины особенно актуален для частного
+            сектора, коттеджных и дачных поселков, где нет центрального
+            водопровода. Мы выполним полный комплекс работ по инженерному
+            оснащению Вашего дома. Предложим выгодную стоимость бурения скважин
+            на воду, установку систем фильтрации, проектирование системы
+            канализации и отопления. Все работы проводятся строго по договорам
+            как с юридическими так и с физическими лицами.
+          </p>
+        </div>
+        <div class="page__container advantages-container">
+          <h1 class="page__advantages-title">Наши приемущества</h1>
+          <div class="page__advantages-container">
+            <div class="page__advantages-items">
+              <h2 class="advantage__title">Собственный парк техники</h2>
+              <p class="advantege__text">
+                В нашем распоряжении есть все оборудование, необходимое для
+                осуществления бурения и сопутствующих работ. Мы поддерживаем его
+                в отличном состоянии, готовым к применению в любой момент. Кроме
+                того наш парк регулярно обновляется, чтобы соответствовать всем
+                современным требованиям этой области.
+              </p>
+            </div>
+            <div class="page__advantages-items">
+              <h2 class="advantage__title">Опытные профессионалы</h2>
+              <p class="advantege__text">
+                Компанию "Vatnwell-eka" составляют настоящие профессионалы
+                своего дела. Кроме того, обязательным стандартом для наших
+                сотрудников является непрерывное обучение и развитие в своей
+                области. Над каждым заказом весь наш штат, от инженеров и
+                бурильщиков до операторов call-центра, работает с полной
+                самоотдачей.
+              </p>
+            </div>
+            <div class="page__advantages-items">
+              <h2 class="advantage__title">Гарантия на все виды работ</h2>
+              <p class="advantege__text">
+                Каждый выполненный нами заказ, неважно создание ли то скважины
+                целиком или только отдельный этап данного процесса, получает
+                гарантию на определенный срок, в зависимости от типа работ.
+                Кроме того, по его истечении Вы всегда сможете рассчитывать на
+                сервисное и послегарантийное обслуживание от нашей компании.
+              </p>
+            </div>
+            <div class="page__advantages-items">
+              <h2 class="advantage__title">Работаем в выходные</h2>
+              <p class="advantege__text">
+                Бурим в удобное для Вас время и в любую погоду.
+              </p>
+            </div>
+            <div class="page__advantages-items">
+              <h2 class="advantage__title">Без предоплаты</h2>
+              <p class="advantege__text">
+                Если Вы не можете сами определиться с местом бурения, наши
+                специалисты всегда могут приехать к Вам и оказать Вам бесплатную
+                квалифицированную консультацию.
+              </p>
+            </div>
+            <div class="page__advantages-items">
+              <h2 class="advantage__title">Возможна рассрочка</h2>
+              <p class="advantege__text">
+                Пользуйтесь скважиной и расплачивайтесь постепенно. У нашей
+                компании индивидуальный подход к каждому клиенту.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section class="page-cards__container">
+          <h1 class="page__price-title" id="page__cards-container">
+            Цены и услуги
+          </h1>
+
+          <div class="page__cards-container">
+            <div class="page__cards-item">
+              <h2 class="cards__title">Пластик НПВХ</h2>
+              <div class="cards__price">от 2400 Р</div>
+              <a href="#" class="cards__btn feedback-link">запростиь расчет</a>
+            </div>
+            <div class="page__cards-item">
+              <h2 class="cards__title">Металл <br />133</h2>
+              <div class="cards__price">от 2450 Р</div>
+              <a href="#" class="cards__btn feedback-link">запростиь расчет</a>
+            </div>
+            <div class="page__cards-item">
+              <h2 class="cards__title">Металл 133 + Пластик 117</h2>
+              <div class="cards__price">от 2600 Р</div>
+              <a href="#" class="cards__btn feedback-link">запростиь расчет</a>
+            </div>
+            <div class="page__cards-item">
+              <h2 class="cards__title">Металл 159 + Пластик 125</h2>
+              <div class="cards__price">от 3500 Р</div>
+              <a href="#" class="cards__btn feedback-link">запростиь расчет</a>
+            </div>
+            <div class="page__cards-item">
+              <h2 class="cards__title">Металл 159 + Металл 133</h2>
+              <div class="cards__price">от 3900 Р</div>
+              <a href="#" class="cards__btn feedback-link">запростиь расчет</a>
+            </div>
+            <p class="under__cards-text">
+              Малогабаритное бурение на все цены +500 руб. Цены зависят от
+              сложности проведения работ и могут меняться в зависимости от
+              района бурения.
+            </p>
+          </div>
+        </section>
+        <section class="wells__container">
+          <div id="wells__content" class="wells__content">
+            <h1 class="wells__title">Виды скважин</h1>
+            <p class="wells__text">
+              Все скважины на воду классифицируются исходя из глубины залегания
+              водоносного слоя и метода бурения скважины. Самыми
+              распространёнными в частном строительстве являются: разведочные,
+              фильтровые (на песок), глубинные (артезианские) и промышленные с
+              использованием вращательного метода бурения.
+            </p>
+            <div class="wells__board-items">
+              <div class="wells__board-item">
+                <div class="wells__bord">
+                  <h2 class="wells__board-title">Скважина на песок</h2>
+                  <div class="wells__board-text">
+                    Самый популярный и распространенный вид источников воды,
+                    особенно, для загородных участков.
+                  </div>
+                </div>
+                <img src="./img/видбур.png" alt="well" class="wells__img" />
+                <p class="wells__info-text">
+                  Скважина на песок - их принято считать самыми популярными и
+                  распространенными видами источников воды, особенно, для
+                  загородных участков. Они не обладают высоким дебитом и не
+                  рассчитаны на небольшие сроки эксплуатации (обычно от 5 до 20
+                  лет). На нижнем конце трубы размещают сетчатый фильтр для
+                  упреждения попадания в источник песчаных включений. Срок
+                  службы очень сильно зависит от регулярности эксплуатации
+                  скважины. Большие перерывы в работе скважины приводят к
+                  быстрому заиливанию фильтра и выходу скважины из строя.
+                </p>
+              </div>
+              <div class="wells__board-item">
+                <div class="wells__bord">
+                  <h2 class="wells__board-title">Скважина на песок</h2>
+                  <div class="wells__board-text">
+                    Самый популярный и распространенный вид источников воды,
+                    особенно, для загородных участков.
+                  </div>
+                </div>
+                <img src="./img/видбур.png" alt="well" class="wells__img" />
+                <p class="wells__info-text">
+                  Скважина на песок - их принято считать самыми популярными и
+                  распространенными видами источников воды, особенно, для
+                  загородных участков. Они не обладают высоким дебитом и не
+                  рассчитаны на небольшие сроки эксплуатации (обычно от 5 до 20
+                  лет). На нижнем конце трубы размещают сетчатый фильтр для
+                  упреждения попадания в источник песчаных включений. Срок
+                  службы очень сильно зависит от регулярности эксплуатации
+                  скважины. Большие перерывы в работе скважины приводят к
+                  быстрому заиливанию фильтра и выходу скважины из строя.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="works">
+          <div class="works__container">
+            <h1 class="works__title">Наша работа</h1>
+            <div class="slider">
+              <div class="slider__wrapper">
+                <div class="slider__item">
+                  <img src="./img/works/1.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Буровая установка</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/2.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Осадные трубы</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/3.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Процесс установки <br>техники</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/4.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Работа бурового <br>мастера</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/5.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Вскрытие известнякового <br>слоя</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/6.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Процесс бурения</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/7.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Подготовка к работе</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/8.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Подача бурового <br>инструмента</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/9.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Установка металлической <br>колонны</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/10.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Набираем воду</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/11.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Технологическая яма <br>для циркуляции</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/12.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Бурение артезианской <br>скважины</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/13.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Сели на три моста</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/14.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Процесс бурения <br>в ангаре</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/15.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Плаваем...</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/16.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Процесс бурения</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/17.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Подача инструмента</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/18.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Подготовка</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/19.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Процесс бурения</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/20.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Монтаж <br>гидробака</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/21.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Монтаж кессона</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/22.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Монтаж <br>адаптера</p>
+                </div>
+                <div class="slider__item">
+                  <img src="./img/works/23.png" alt="" class="slide__img" />
+                  <p class="slider__item-text">Установка <br>адаптера</p>
+                </div>
+              </div>
+              <div class="slider__controls">
+                <button class="slider__control slider__control_prev"></button>
+                <button class="slider__control slider__control_next"></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pipes__container">
+          <h1 class="pipes__title">Обсадные трубы</h1>
+          <div class="pipes__gallery">
+            <div class="pipes__gallery-items">
+              <div class="pipes__gallery-item">
+                <img class="pipe__img" src="/img/pipes/1.png" alt="" />
+                <div class="img__caption">
+                  <h2 class="title__pipes">Металлическая обсадная труба</h2>
+                </div>
+                <div class="content__pipes">
+                  <div class="content__pipes-text">
+                    Металлическая обсадная труба, диаметр 133. Используется при
+                    бурении артезианских скважин конструкцией металл -
+                    металл+пластик. Необходима для разграничения водоносных
+                    земляных пород. Варианты диаметров данного вида трубы
+                    следующие:
+                  </div>
+                  <div class="content__pipes-list">
+                    133, толщина стенки от 4 мм до 5 мм.
+                    <br />159, толщина стенки от 4 мм до 5 мм. <br />114,
+                    толщина стенки от 4 до 4,5 мм. 89, толщина стенки - 4 мм.
+                  </div>
+                </div>
+              </div>
+              <div class="pipes__gallery-item">
+                <img class="pipe__img" src="/img/pipes/2.png" alt="" />
+                <div class="img__caption">
+                  <h2 class="title__pipes">ПНД труба</h2>
+                </div>
+                <div class="content__pipes">
+                  <div class="content__pipes-text">
+                    Данный вид трубы используется при бурении артезианских
+                    скважин совместно с использованием металлической обсадной
+                    трубы 133 диаметром. Устанавливается внутри металлической
+                    колонны. Служит для дополнительной защиты от попадания
+                    грунтовых вод. Диаметры данного вида трубы:
+                  </div>
+                  <div class="content__pipes-list">
+                    133, толщина стенки от 4 мм до 5 мм.
+                    <br />159, толщина стенки от 4 мм до 5 мм. <br />114,
+                    толщина стенки от 4 до 4,5 мм. <br />89, толщина стенки - 4
+                    мм.
+                  </div>
+                </div>
+              </div>
+
+              <div class="pipes__gallery-item">
+                <img class="pipe__img" src="/img/pipes/3.png" alt="" />
+                <div class="img__caption">
+                  <h2 class="title__pipes">НПВХ труба</h2>
+                </div>
+                <div class="content__pipes">
+                  <div class="content__pipes-text">
+                    НПВХ труба служит как самостоятельным видом конструкции
+                    артезианской скважины, так и может быть установлена в
+                    комплекте с металлической обсадной трубой 133 диаметра.
+                    Преимуществом данного вида трубы является возможность ее
+                    использования для скважин на песок с установкой
+                    дополнительного фильтра. Диаметры данного вида трубы
+                    следующие:
+                  </div>
+                  <div class="content__pipes-list">
+                    133, толщина стенки от 4 мм до 5 мм.
+                    <br />159, толщина стенки от 4 мм до 5 мм. <br />114,
+                    толщина стенки от 4 до 4,5 мм. 89, толщина стенки - 4 мм.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div class="slider__container slider__work">
+          <div class="slider__wrapper">
+            <div class="slider__item">
+              <img
+                src="./img/slider-work/1.png"
+                alt=""
+                class="slide__img img-work"
+              />
+              <h1 class="slider__item-titleWork">"И три моста застревают!"</h1>
+              <p class="slider__item-textWork">
+                Заезд на скважину СНТ Раменского района Московской области.
+                Грунт оказался не плотным, при заезде техника села на мосты.
+                Откопались спустя сутки.
+              </p>
+            </div>
+            <div class="slider__item">
+              <img
+                src="./img/slider-work/2.png"
+                alt=""
+                class="slide__img img-work"
+              />
+              <h1 class="slider__item-titleWork">
+                Бурение скважины внутри ангара
+              </h1>
+              <p class="slider__item-textWork">
+                Благодаря правильному выбору места бурения скважины, проблемы с
+                заездом и установкой техники отсутствуют.
+              </p>
+            </div>
+            <div class="slider__item">
+              <img
+                src="./img/slider-work/3.png"
+                alt=""
+                class="slide__img img-work"
+              />
+              <h1 class="slider__item-titleWork">
+                Бурения в затруднительных <br />условиях
+              </h1>
+              <p class="slider__item-textWork">
+                Не всегда процесс бурения бывает в удобном для нас месте.
+                Приходится импровизировать. Подача инструмента производилась из
+                дома.
+              </p>
+            </div>
+            <div class="slider__item">
+              <img
+                src="./img/slider-work/4.png"
+                alt=""
+                class="slide__img img-work"
+              />
+              <h1 class="slider__item-titleWork">"Спасение утопающих..."</h1>
+              <p class="slider__item-textWork">
+                Дело было в Тульской области. Бригада поехала за водой. Спасение
+                длилось двое суток. Только при помощи спецтехники удалось
+                вытащить водовозку.
+              </p>
+            </div>
+            <div class="slider__item">
+              <img
+                src="./img/slider-work/5.png"
+                alt=""
+                class="slide__img img-work"
+              />
+              <h1 class="slider__item-titleWork">Процесс бурения</h1>
+              <p class="slider__item-textWork">
+                Бурение артезианской скважины в Воскресенском районе Московской
+                области. На данном этапе идет вскрытие водоносного горизонта в
+                известняковом слое.
+              </p>
+            </div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__control slider__control_prev"></button>
+            <button class="slider__control slider__control_next"></button>
+          </div>
+        </div> -->
+        <section class="contact__block">
+          <div class="block__container">
+            <h1 class="block__title" id="block__title">Контакты</h1>
+            <div class="block__items">
+              <div class="block__item">
+                <img src="./img/geo.png" alt="geo" class="block__item-img" />
+                <p class="block__item-adres">
+                  140130 Россия, Раменский район, <br />д. Хрипань, ул.
+                  Центральная, уч. 9 "А"
+                </p>
+              </div>
+              <div class="block__item">
+                <img src="./img/mail.png" alt="mail" class="block__item-img" />
+                <a href="mailto:skvagina-eka@mail.ru" class="block__item-mail"
+                  >skvagina-eka@mail.ru</a
+                >
+              </div>
+              <div class="block__item">
+                <img src="./img/tel.png" alt="tel" class="block__item-img" />
+                <a href="tel:+79254880800" class="block__item-tel"
+                  >+7 (925) 488-0800</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form">
+          <div class="form__items">
+            <div class="form__item">
+              <h1 class="form__title">
+                Если у вас еще остались вопросы — мы поможем в выборе!
+              </h1>
+              <p class="form__text">
+                Отправьте ваш вопрос и оставьте удобный для вас способ связи.
+              </p>
+            </div>
+            <div class="form__item">
+              <form action="#" method="post" id="form__footer">
+                <label for="name">Имя:</label>
+                <input
+                  placeholder="Имя"
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                />
+
+                <label for="email">Почта:</label>
+                <input
+                  placeholder="Почта"
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+
+                <label for="phone">Номер телефона:</label>
+                <input
+                  placeholder="Номер телефона"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+
+                <label for="question">Вопрос:</label>
+                <textarea
+                  placeholder="Вопрос"
+                  id="question"
+                  name="question"
+                  rows="5"
+                  required
+                ></textarea>
+
+                <input type="submit" value="Отправить" />
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__links">
+            <a href="#" class="footer__link footer__link--animated">Главная</a>
+            <a
+              href="#page__main-title-big"
+              class="footer__link footer__link--animated"
+              >О нас</a
+            >
+            <a
+              href="#page__cards-container"
+              class="footer__link footer__link--animated"
+              >Цены и услуги</a
+            >
+            <a href="#block__title" class="footer__link footer__link--animated"
+              >Контакты</a
+            >
+          </div>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div class="footer__info">
+            <p class="footer__text">Адрес: г. Москва, ул. Профсоюзная, д. 33</p>
+            <a href="tel:+74951234567" class="footer-tel"
+              ><p class="footer__text">Телефон: +7 (495) 123-45-67</p></a
+            >
+            <a href="mailto:info@company.ru" class="footer__text"
+              >info@company.ru</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="works">
+  <div class="works__container">
+    <h1 class="works__title">Наша работа</h1>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          <img src="./img/works/1.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Буровая установка</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/2.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Осадные трубы</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/3.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Процесс <br>установки <br>техники</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/4.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Работа бурового <br>мастера</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/5.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Вскрытие <br>известнякового <br>слоя</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/6.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Процесс бурения</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/7.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Подготовка к <br>работе</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/8.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Подача бурового <br>инструмента</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/9.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Установка <br>металлической <br>колонны</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/10.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Набираем воду</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/11.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Технологическая <br>яма для <br>циркуляции</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/12.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Бурение <br>артезианской <br>скважины</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/13.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Сели <br>на три моста</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/14.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Процесс бурения <br>в ангаре</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/15.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Плаваем...</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/16.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Процесс бурения</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/17.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Подача инструмента</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/18.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Подготовка</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/19.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Процесс бурения</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/20.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Монтаж <br>гидробака</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/21.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Монтаж кессона</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/22.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Монтаж <br>адаптера</p>
+        </div>
+        <div class="slider__item">
+          <img src="./img/works/23.png" alt="" class="slide__img" />
+          <p class="slider__item-text">Установка <br>адаптера</p>
+        </div>
+      </div>
+      <div class="slider__controls">
+        <button class="slider__control slider__control_prev"></button>
+        <button class="slider__control slider__control_next"></button>
+      </div>
+      <!-- <div class="slider__pagination">
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+        <div class="slider__dot"></div>
+      </div> -->
+    </div>
+  </div>
+</section> -->
